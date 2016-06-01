@@ -10,11 +10,11 @@ function sqr(a,b,c){
         var x1= (-b+Math.sqrt(d)) / (2*a);
         var x2 = (-b-Math.sqrt(d)) / (2*a);
         
-        return x1=${x1}, x2=${x2}`;
+        return ('x1='+ x1) + (',x2=' + x2) ;
     }else if (d===0) {
         var x = -b / (2*a);
-        return x=${x};
+        return ('x='+ x );
     }else {
-        return 'no found';
+        return 'not found';
     }
-}
+}  
